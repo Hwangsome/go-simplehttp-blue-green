@@ -27,3 +27,4 @@ EXPOSE 8000
 FROM scratch
 COPY --from=builder /dist/simpleHTTP /
 ENTRYPOINT ["/simpleHTTP"]
+
