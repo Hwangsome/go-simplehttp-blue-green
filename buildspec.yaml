@@ -2,7 +2,7 @@ version: 0.2
 # https://docs.aws.amazon.com/zh_cn/codebuild/latest/userguide/build-env-ref-env-vars.html
 env:
   variables:
-    REPOSITORY_URI: "058264261029.dkr.ecr.us-east-1.amazonaws.com/bhuang-devops/backend-api"
+    REPOSITORY_URI: "058264261029.dkr.ecr.us-east-1.amazonaws.com/bhuang-devops/go-simplehttp-blue-green"
 
 phases:
   pre_build:
