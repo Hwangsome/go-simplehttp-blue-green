@@ -6,5 +6,5 @@ Resources:
       Properties:
         TaskDefinition: "<TASK_DEFINITION>"
         LoadBalancerInfo:
-          ContainerName: "go-simplehttp"
+          ContainerName: "go-simple-http"
           ContainerPort: 8000
