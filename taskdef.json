@@ -89,5 +89,10 @@
   },
   "registeredAt": "2024-11-05T16:53:16.766Z",
   "registeredBy": "arn:aws:iam::058264261029:root",
-  "tags": []
+  "tags": [
+    {
+      "key": "Name",
+      "value": "test-blue-green-simple-http"
+    }
+  ]
 }
