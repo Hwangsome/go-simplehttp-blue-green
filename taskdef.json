@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "go-simple-http",
-      "image": "IMAGE_NAME",
+      "image": "IMAGE1_NAME",
       "portMappings": [
         {
           "name": "go-simple-http-8000-tcp",
