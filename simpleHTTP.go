@@ -7,6 +7,7 @@ import (
 	"os"
  	"net/http"
 )
+
 func main() {
 	log.Print("simplehttp: Enter main()")
 	http.HandleFunc("/", handler)
