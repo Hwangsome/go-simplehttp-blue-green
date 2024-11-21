@@ -25,7 +25,7 @@ phases:
       - echo "Updating task definition JSON with image URI..."
       - sed -i 's|IMAGE_NAME|'$REPOSITORY_URI:$CODEBUILD_RESOLVED_SOURCE_VERSION'|g' taskdef.json
 
-# https://docs.aws.amazon.com/codepipeline/latest/userguide/file-reference.html
+# https://docs.aws.amazon.com/codepipeline/latest/userguide/file-reference.html 
 artifacts:
   files:
     - 'image*.json'
