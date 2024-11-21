@@ -1,6 +1,6 @@
 FROM 058264261029.dkr.ecr.us-east-1.amazonaws.com/bhuang-devops/custom-golang-alpine:latest AS builder
 
-# Set necessary environmet variables needed for our image
+#  Set necessary environmet variables needed for our image
 ENV GO111MODULE=on \
     CGO_ENABLED=0 \
     GOOS=linux \
