@@ -15,7 +15,7 @@ func main() {
 	
 }
 
-// printing request headers/params 
+// printing request headers/params
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Print("request from address: %q\n", r.RemoteAddr)
 	fmt.Fprintf(w, "%s %s %s\n", r.Method, r.URL, r.Proto)
